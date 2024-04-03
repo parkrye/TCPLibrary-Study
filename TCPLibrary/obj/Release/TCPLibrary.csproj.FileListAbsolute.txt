@@ -1,0 +1,9 @@
+C:\Users\parkr\source\repos\TCPLibrary\TCPLibrary\bin\Release\TCPLibrary.dll
+C:\Users\parkr\source\repos\TCPLibrary\TCPLibrary\bin\Release\TCPLibrary.pdb
+C:\Users\parkr\source\repos\TCPLibrary\TCPLibrary\bin\Release\UnityEngine.dll
+C:\Users\parkr\source\repos\TCPLibrary\TCPLibrary\bin\Release\UnityEngine.xml
+C:\Users\parkr\source\repos\TCPLibrary\TCPLibrary\obj\Release\TCPLibrary.csproj.AssemblyReference.cache
+C:\Users\parkr\source\repos\TCPLibrary\TCPLibrary\obj\Release\TCPLibrary.csproj.CoreCompileInputs.cache
+C:\Users\parkr\source\repos\TCPLibrary\TCPLibrary\obj\Release\TCPLibrary.csproj.CopyComplete
+C:\Users\parkr\source\repos\TCPLibrary\TCPLibrary\obj\Release\TCPLibrary.dll
+C:\Users\parkr\source\repos\TCPLibrary\TCPLibrary\obj\Release\TCPLibrary.pdb
