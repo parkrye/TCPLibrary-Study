@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-public delegate void CallbackInput(int foward, int turn);
+public delegate void CallbackInput(int input);
 
 public class Server : MonoBehaviour
 {
@@ -46,7 +46,7 @@ public class Server : MonoBehaviour
     {
         try
         {
-            _tcpListener = new TcpListener(IPAddress.Parse("192.168.0.11"), 50001);
+            _tcpListener = new TcpListener(IPAddress.Parse("192.168.0.1"), 50001);
             _tcpListener.Start();
 
             while (true)
@@ -108,8 +108,7 @@ public class Server : MonoBehaviour
 
     private void InputHandler(int displayId, int payloadLength, byte[] bytes)
     {
-        int fowardAxis = BitConverter.ToInt32(bytes, 0);
-        int turnAxis = BitConverter.ToInt32(bytes, 4);
-        _callbackInput?.Invoke(fowardAxis, turnAxis);
+        int input = BitConverter.ToInt32(bytes, 0);
+        _callbackInput?.Invoke(input);
     }
 }
